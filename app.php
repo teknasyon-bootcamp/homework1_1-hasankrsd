@@ -1,7 +1,8 @@
 <?php
-
+// Yaş aralığı buraya girilir
 $age = 25;
 
+// Bu bölümde yukarıda girilen yaşa göre girilen değer bir yaş aralığına atanır.
 
 if ($age >=0 && $age <=14) {
     $group = "Çocuk"; 
@@ -12,5 +13,6 @@ if ($age >=0 && $age <=14) {
     }else if($age >=65){
       $group = "Yaşlı";
     }
+// Burada da atanan yaş aralığı ekrana yazdırılır.
 
 echo $group;
