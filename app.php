@@ -12,6 +12,8 @@ if ($age >=0 && $age <=14) {
       $group = "Yetişkin";
     }else if($age >=65){
       $group = "Yaşlı";
+    }else {
+        $group="Lütfen Geçerli Bir Yaş Giriniz";
     }
 // Burada da atanan yaş aralığı ekrana yazdırılır.
 
